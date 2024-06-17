@@ -1,0 +1,36 @@
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1a1a1a; /* Preto */
+  }
+  .container {
+    width: 300px;
+    padding: 20px;
+    background-color: #004d00; /* Verde escuro */
+    color: white; /* Texto branco */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    box-sizing: border-box; /* Para que o padding não afete a largura total */
+  }
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #006600; /* Um verde mais claro para o botão */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
